@@ -27,12 +27,12 @@ Arguments:
 
 
 
-### Here is an example of an image before processing:  
-![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/dog.jpg)  
+### Image in grayscale:  
+![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/garden.png)  
 
 
-### The image after processing:  
-![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/result.jpg)  
+### The image after the processing:  
+![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/garden.png)  
 
  
 
