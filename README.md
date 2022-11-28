@@ -15,7 +15,7 @@ There are 3 functions. The first one "change_to_colorful" is created to take in 
 Input: <program> [image] [size] [mode] {options}
 
 Arguments:  
-      image           The name of the graphic file of any format.  
+      image           The name of the file of any format (jpg, png, jpeg).  
       size            The size of the square for the averaging.  
       mode            'S' - single threaded and 'M' - multi threaded.  
 
@@ -27,7 +27,7 @@ Arguments:
 
 
 ### Here is an example of an image before processing:  
-![alt text](https://github.com/Yusif-bit/concurrency-assignment/dog.jpg)  
+![image](https://github.com/Yusif-bit/concurrency-assignment/blob/dog.jpg)  
 
 
 ### The image after processing:  
