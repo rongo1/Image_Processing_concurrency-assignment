@@ -35,7 +35,7 @@ Arguments:
 ![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/result.png)  
 
 ### Image in grayscale:  
-![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/dog.jpg)  
+
 
 
 ### The image after the processing:  
