@@ -27,11 +27,12 @@ Arguments:
 
 
 ### Here is an example of an image before processing:  
-![image](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/dog.jpg)  
+![alt text](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/dog.jpg)  
 
 
 ### The image after processing:  
-![image](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/result.jpg)  
+![alt text](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/result.jpg)  
+
  
 
 
