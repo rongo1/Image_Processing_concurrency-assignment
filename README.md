@@ -31,7 +31,7 @@ Arguments:
 
 
 ### The image after processing:  
-![alt text](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/result.jpg)  
+![image](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/result.jpg)  
 
  
 
