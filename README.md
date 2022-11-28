@@ -27,7 +27,7 @@ Arguments:
 
 
 ### Here is an example of an image before processing:  
-![alt text](https://github.com/Yusif-bit/concurrency-assignmen/blob/main/dog.jpg)  
+![alt text](https://github.com/Yusif-bit/concurrency-assignment/dog.jpg)  
 
 
 ### The image after processing:  
