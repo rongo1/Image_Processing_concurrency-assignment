@@ -18,8 +18,10 @@ Input: <program> [image] [size] [mode] {options}
 Arguments:  
       image           The name of the file of any format (jpg, png, jpeg).  
       size            The size of the square for the averaging.  
-      mode            'S' - single threaded and 'M' - multi threaded.  
-
+      mode            'S' - single threaded and 'M' - multi threaded.
+Examples:
+      java Main.java garden.png 10 M
+      java Main.java dog.jpg 20 S
 ```
 
 
