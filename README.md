@@ -40,11 +40,3 @@ Arguments:
 
 ### The image after the processing:  
 ![image](https://github.com/Yusif-bit/concurrency-assignment/blob/main/result.jpg) 
-
- 
-
-
-
-
-
-
