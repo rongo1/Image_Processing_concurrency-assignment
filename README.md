@@ -4,10 +4,13 @@
 
 ## General Information
 
-The main purpose of the program is to convert the grayscale pixels into color for each of the given sized boxes in single-processing and multi-processing modes. The main idea standing behind of method converting grayscale into color consists of two parts. In the first part we should pay attention to the fact that almost all the grayscale images have the same red, green and blue colors (for example - (171, 172, 175)). So, by taking the average value of those three we can make new color by changing each channel. If the average color value is less that 85 (I divided 255 by 3 to get 3 ranges of intensity) we divide the red value by three and keep other 2 values unchanged to decrease intensity, because in grayscale the small values of colors (less than 85, for example [65, 63, 62]) shows low density (it was determined by experiments, in which I was changing the values of color channels). Based on same logic if the average value of colors are between 85 and 175, we divide green by 3 and keep others unchanged, and if it is more than 170 (high density) we divide blue by 3 and keep others unchanged.
+The main purpose of the program is to convert the grayscale pixels into color for each of the given sized boxes in single-processing and multi-processing modes. The main idea behind the method of converting grayscale into color consists of two parts.
 
-There are 3 functions. The first one "change_to_colorful" is created to take in X and Y ranges and change the color of pixels in those ranges. Other two functions are processing image in single-processing and multi-processing modes.
+In the first part, we should pay attention to the fact that almost all grayscale images have the same red, green, and blue colors (for example - (171, 172, 175)). By taking the average value of those three colors, we can create a new color by modifying each channel. If the average color value is less than 85 (I divided 255 by 3 to obtain 3 ranges of intensity), we divide the red value by three and keep the other two values unchanged to decrease intensity. This adjustment is necessary because in grayscale, small values of colors (less than 85, for example [65, 63, 62]) indicate low density. The determination of these values was made through experiments in which I manipulated the color channel values.
 
+Following the same logic, if the average value of colors falls between 85 and 175, we divide the green value by three and keep the others unchanged. If the average value is above 170 (indicating high density), we divide the blue value by three and keep the others unchanged.
+
+There are three functions in this program. The first function, "change_to_colorful," is created to take in X and Y ranges and change the color of pixels within those ranges. The other two functions process the image in single-processing and multi-processing modes.
 
 
 
